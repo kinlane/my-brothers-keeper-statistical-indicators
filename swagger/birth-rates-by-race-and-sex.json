@@ -13,7 +13,7 @@
   "basePath": "/v1",
   "tags": [
     {
-      "name": "Birth Rates "
+      "name": "Birth Rates"
     }
   ],
   "schemes": [
@@ -23,7 +23,7 @@
     "/race/{raceid}": {
       "get": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Loads a race",
         "description": "Loads a race",
@@ -58,7 +58,7 @@
       },
       "put": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Stores a race",
         "description": "Stores a race",
@@ -103,7 +103,7 @@
       },
       "delete": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Deletes a race",
         "description": "Deletes a race",
@@ -129,7 +129,7 @@
     "/raceandsex/": {
       "get": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Loads a list of raceandsex",
         "description": "Loads a list of raceandsex",
@@ -159,7 +159,7 @@
       },
       "post": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Adds a raceandsex",
         "description": "Adds a raceandsex",
@@ -199,7 +199,7 @@
     "/raceandsex/{raceandsexid}": {
       "get": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Loads a raceandsex",
         "description": "Loads a raceandsex",
@@ -234,7 +234,7 @@
       },
       "put": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Stores a raceandsex",
         "description": "Stores a raceandsex",
@@ -279,7 +279,7 @@
       },
       "delete": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Deletes a raceandsex",
         "description": "Deletes a raceandsex",
@@ -305,7 +305,7 @@
     "/races/": {
       "get": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Loads a list of race",
         "description": "Loads a list of race",
@@ -335,7 +335,7 @@
       },
       "post": {
         "tags": [
-          "Birth Rates Improved"
+          "Birth Rates"
         ],
         "summary": "Adds a race",
         "description": "Adds a race",
