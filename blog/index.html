@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>Blog (Updates)</h1>
 <p><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="25" align="right" style="padding: 25px;" /></a></p>
-<p align="center">This blogs acts as a journal for this blog, keeping track of what has happened. Visit the roadmap page to see what is next.</p>
+<p align="center">This blogs acts as a journal for this blog, keeping track of what has happened.</p>
 <table cellpadding="1" cellspacing="1" width="100%" border="0">
 	<tr><td colspan="2" align="center"><hr style="padding: 1px 1px 1px 1px; margin: 1px 1px 1px 1px;" /></td></tr>
 {% for post in paginator.posts %}
@@ -13,8 +13,8 @@ layout: default
 		    	<a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}"><img src="{{ post.image }}" width="50" style="padding-top:5px;" /></a>
 		    {% endif %}
 	    </td>
-	    <td align="left">
-		    <a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000; font-size: 16px;"><strong>{{ post.title }}</strong></a> <i>{{ post.date | date:"%m-%d-%Y" }}</i>
+	    <td align="left" style="padding-bottom: 5px;">
+		    <a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000; font-size: 16px;"><strong>{{ post.title }}</strong></a>
 	    </td>
 	</tr>
 	<tr><td colspan="2" align="center"><hr style="padding: 1px 1px 1px 1px; margin: 1px 1px 1px 1px;" /></td></tr>
