@@ -13,12 +13,7 @@
   "basePath": "/v1",
   "tags": [
     {
-      "name": "Birth Rates Improved",
-      "description": "Imported from Birth Rates Improved"
-    },
-    {
-      "name": "Default",
-      "description": "Default section"
+      "name": "Birth Rates "
     }
   ],
   "schemes": [
