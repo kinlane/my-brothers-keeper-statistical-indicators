@@ -37,20 +37,16 @@ layout: default
 <table cellpadding="5" cellspacing="5" width="100%">
   <tr>
     <td with="50%" align="left">
-      
+
 	{% if page.previous %}
-	   	<a href="{{ site.production_url }}{{ page.previous.url }}" class="older">Older</a>
-	{% else %}
-		<a href="/" class="older">Older</a>
+	   	<a href="{{ site.production_url }}{{ page.previous.url }}">Older</a>
 	{% endif %}
 
     </td>
     <td with="50%" align="left">
 
 	  {% if page.next %}
-	    <a href="{{ site.production_url }}{{ page.next.url }}" class="newer">Newer</a>
-	  {% else %}
-	    <span class="next">Newer</span>
+	    <a href="{{ site.production_url }}{{ page.next.url }}">Newer</a>
 	  {% endif %}
 
     </td>
