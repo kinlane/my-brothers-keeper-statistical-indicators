@@ -1,0 +1,45 @@
+{
+  "name": "My Brothers Keeper Statistical Indicators",
+  "description": "My Brother’s Keeper Task Force recommended that government make available and encourage adoption of critical indicators of life outcomes for boys and young men of color and their peers. The Task Force intends to work with the Federal Statistical Agencies to make these and other relevant statistics available at the national level.",
+  "image": "http://my-brothers-keeper-statistical-indicators.apievangelist.com/images/my-brothers-keeper-logo.jpg",
+  "tags": [
+    "federal government, statistics, boys, men"
+  ],
+  "created": "2015-07-26",
+  "modified": "2015-07-26",
+  "url": "http://my-brothers-keeper-statistical-indicators.apievangelist.com/apis.json",
+  "x-source-url": "http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html",
+  "specificationVersion": "0.14",
+  "apis": [
+    {
+      "name": "Birth Rates 18 to 14 by Race and ethnicity from 2000 through 2012",
+      "description": "Rate of births to young adult women ages 18–19 and 20-24 per 1,000 women by race/ethnicity, 2000–2012",
+      "image": "http://my-brothers-keeper-statistical-indicators.apievangelist.com/images/my-brothers-keeper-logo.jpg",
+      "humanURL": "http://my-brothers-keeper-statistical-indicators.apievangelist.com/",
+      "baseURL": "https://birthratesimproved.apispark.net",
+      "properties": [
+        {
+          "type": "x-documentation",
+          "url": "http://my-brothers-keeper-statistical-indicators.apievangelist.com/docs.html"
+        },
+        {
+          "type": "Swagger",
+          "url": "http://my-brothers-keeper-statistical-indicators.apievangelist.com/swagger/birth-rates-by-race-and-sex.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Department of Education"
+        }
+      ]
+    }
+  ],
+  "include": [],
+  "maintainers": [
+    {
+      "FN": "Kin",
+      "X-twitter": "apievangelist",
+      "email": "info@apievangelist.com"
+    }
+  ]
+}
